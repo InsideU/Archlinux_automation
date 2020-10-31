@@ -1,3 +1,5 @@
+
+
 #!/bin/bash
 
 PS3='Select Environment: '
@@ -135,3 +137,5 @@ echo /swapfile none swap defaults 0 0 >> /etc/fstab
 # auto-complete these essential commands
 echo complete -cf sudo >> /etc/bash.bashrc
 echo complete -cf man >> /etc/bash.bashrc
+
+# few functionalities can be added
